@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+#homepage a{
+    font-size: 33px;
+    color: #ffc09d;
+}
+.button{
+    display: inline-block;
+}
+.button a{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: -13px;
+    margin: 8px;
+    background-color: #975937;
+    padding: 15px;
+    border-radius: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.button a:hover{
+    background-color: #fff;
+    color:#975937 ;
+}
+.button a{
+    text-decoration: none;
+    background-color: #975937;
+    color:white ;
+}
+.navbar{
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 123px;
+    margin-top: 8px;
+    margin-left: 27px;
+    width: 230px;
+    transition: all 0.5s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 70px;
+    padding: 10px;
+    font-size: 22px;
+    transition: all 0.5s;
+}
+.navbar ul li a{
+    color: #975937;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navbar ul li:hover{
+    transform: scale(1.1);
+}
+.navbar ul li a:hover{
+color: #ffc09d;
+}
+.image img{
+    height: 550px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 117px;
+}
+.main .home{
+    color: white;
+    font-size: 25px;
+}
+.main .home span{
+    font-weight: bolder;
+    color: #975937 ;
+}
+.hobbypage{
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #ffc09d;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px;
+    justify-items: center;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+}
+.hobby{
+    transition: all 0.5s;
+}
+.hobby:hover{
+    transform: scale(1.05);
+    cursor: default;
+    color: #975937;
+}
+.emoji{
+    font-size: 100px;
+    transition: all 0.5s;
+}
+.emoji:hover{
+    transform: scale(1.2);
+    cursor: default;
+ }
+ #hobbypage a{
+    font-size: 33px;
+    color: #ffc09d;
+}
+#skillspage a{
+    font-size: 33px;
+    color: #ffc09d;
+}
+@keyframes progressbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+.progress{
+    background-color: #94512c;
+    height: 4px;
+    animation: progressbar 0.8s ease-in-out 1;
+}
+.skillmain{
+    display: grid;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-gap: 13px;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.skill{
+    color: #ffc09d;
+    font-weight: bold;
+}
+@keyframes htmlbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.html{
+    width: 70%;
+    background-color: #12835c;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: htmlbar 1s ease-in-out 1;
+}
+.html:hover{
+    background-color: #94512c;
+}
+@keyframes cssbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.css{
+    width: 60%;
+    background-color: #9b4e9b;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: cssbar 1s ease-in-out 1;
+}
+.css:hover{
+    background-color: #94512c;
+}
+@keyframes jsbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+}
+.javascript{
+    width: 30%;
+    background-color: #bd3434;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: jsbar 1s ease-in-out 1;
+}
+.javascript:hover{
+    background-color: #94512c;
+}
+@keyframes cppbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.Cpp{
+    width: 80%;
+    background-color: #6061f3;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: cppbar 1s ease-in-out 1;
+}
+.Cpp:hover{
+    background-color: #94512c;
+}
+@keyframes Cbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.C{
+    width: 50%;
+    background-color: #1f8bb1;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: Cbar 1s ease-in 1;
+}
+.C:hover{
+    background-color: #94512c;
+}
+@keyframes psbar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.Photoshop{
+    width: 70%;
+    background-color: #df4242;
+    font-weight: bold;
+    transition: all 0.2s;
+    animation: psbar 1s ease-in 1;
+}
+.Photoshop:hover{
+    background-color: #94512c;
+}
+.bgbar{
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    transition: all 0.2s;
+}
