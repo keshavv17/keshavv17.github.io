@@ -225,11 +225,11 @@ color: #ffc09d;
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 65%;
     }
 }
 .Cpp{
-    width: 80%;
+    width: 65%;
     background-color: #6061f3;
     font-weight: bold;
     transition: all 0.2s;
