@@ -5,6 +5,12 @@
     font-family: 'Poppins', sans-serif;
     background-color: #000;
 }
+footer{
+    position: absolute;
+    top: 720px;
+    left: 730px;
+    color: white;
+}
 #homepage a{
     font-size: 33px;
     color: #ffc09d;
@@ -104,7 +110,7 @@ color: #ffc09d;
 }
 .container1{
     display: grid;
-    grid-template-columns: 18% 18% 18% 19% 27%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 50px 50px;
     justify-items: center;
     padding: 50px;
