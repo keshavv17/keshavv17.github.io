@@ -7,8 +7,8 @@
 }
 footer{
     position: absolute;
-    top: 720px;
-    left: 730px;
+    top: 95vh;
+    left: 45vw;
     color: white;
 }
 #homepage a{
