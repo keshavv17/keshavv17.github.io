@@ -9,6 +9,10 @@
     font-size: 33px;
     color: #ffc09d;
 }
+#contactpg a{
+    font-size: 33px;
+    color: #ffc09d;
+}
 .button{
     display: inline-block;
 }
@@ -269,4 +273,22 @@ color: #ffc09d;
     background-color: white;
     height: fit-content;
     transition: all 0.2s;
+}
+.maincontact{
+    color: #ffc09d;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+}
+.handles{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px;
+}
+.imagecontact{
+    height: 120px;
+    transition: all 0.5s;
+}
+.imagecontact:hover{
+    transform: scale(1.1);
 }
